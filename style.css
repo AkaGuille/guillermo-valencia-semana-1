@@ -1,15 +1,27 @@
-#mi-header{
-    background-color: aquamarine;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    text-align: center;
+nav{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
 }
 
-.elementos-impares{
-    color:blue;
+#logo{
+    color: white;
 }
 
-.elementos-pares{
-    color:rgb(11, 65, 0);
+
+.nav-buttons{
+    height: 35px;
+    background-color: blue;
+    color:white;
+    border-radius: 100px;
+    border-color: transparent;
 }
