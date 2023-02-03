@@ -1,0 +1,15 @@
+#mi-header{
+    background-color: aquamarine;
+}
+
+h1{
+    text-align: center;
+}
+
+.elementos-impares{
+    color:blue;
+}
+
+.elementos-pares{
+    color:rgb(11, 65, 0);
+}
