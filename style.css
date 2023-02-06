@@ -20,8 +20,24 @@ nav{
 
 .nav-buttons{
     height: 35px;
-    background-color: blue;
+    background-color: #1c508d;
     color:white;
     border-radius: 100px;
     border-color: transparent;
+}
+
+#carrusel{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.carrusel-title{
+    color: white;
+    position: absolute;
+}
+
+.image-lp{
+    width: 273.2px;
+    height: 400px;
 }
