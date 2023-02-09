@@ -5,57 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Ejercicio Semana 1</title>
 </head>
 <body>
     <header id="mi-header">
         <nav>
-            <h1 id="logo">Cine Colombia</h1>
+            <img id="logo" src="https://archivos.cinecolombia.com/cineco-cms-frontend/1.0.98/dist/images/logo_cineco.svg" >
             <button class="nav-buttons">Carteleta</button>
             <button class="nav-buttons">Pronto</button>
             <button class="nav-buttons">Cine Alternativo</button>
             <button class="nav-buttons">Comidas</button>
-            <input type="text">
+            <input class="input" type="text" value="   Buscar">
         </nav>
     </header>
 
     <main>
         <section id="carrusel">
-            <article>
-                <h3 class="carrusel-title">Megan</h3>
-                <figure>
-                    <img class="image-lp" src="https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_poster/5/7/8/7/37875-2-esl-CO/a4f00f29faf9-m3_cineco_2-poster_480x670.jpg">
-                </figure>
-            </article>
-
-            <article>
-                <h3 class="carrusel-title">Gato con botas</h3>
-                <figure>
-                    <img class="image-lp" src="https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_poster/8/3/2/8/28238-17-esl-CO/f5bb2406d172-pib_cineco_2-poster_480x670.jpg">
-                </figure>
-            </article>
-
-            <article>
-                <h3 class="carrusel-title">Avatar: El camino del agua</h3>
-                <figure>
-                    <img class="image-lp" src="https://archivos-cms.cinecolombia.com/images/9/3/3/9/29339-8-esl-CO/86c502a6cc59-poster-avatar-el-camino-del-agua.jpg">
-                </figure>
-            </article>
-
-            <article>
-                <h3 class="carrusel-title">Alerta Extrema</h3>
-                <figure>
-                    <img class="image-lp" src="https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_poster/6/6/2/7/37266-1-esl-CO/ef64c5cda77e-480x670.png">
-                </figure>
-            </article>
             
-            <article>
-                <h3 class="carrusel-title">Rock dogs 3</h3>
-                <figure>
-                    <img class="image-lp" src="https://archivos-cms.cinecolombia.com/images/5/5/5/8/38555-1-esl-CO/0b6486e352cc-2_poster_480x670.png">
-                </figure>
-            </article>          
+            <article class="images-carrusel">
+                <h1 class="text-carrusel">Megan</h1>
+                <img class="images-movies-carrusel" src="https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_poster/5/7/8/7/37875-2-esl-CO/a4f00f29faf9-m3_cineco_2-poster_480x670.jpg">
+                
+            </article>
+
+            <article class="images-carrusel">
+                <h1 class="text-carrusel">Gato con botas: El último deseo</h1>
+                <img class="images-movies-carrusel" src="https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_poster/8/3/2/8/28238-17-esl-CO/f5bb2406d172-pib_cineco_2-poster_480x670.jpg">
+            </article>
+
+            <article class="images-carrusel">
+                <h1 class="text-carrusel">Avatar: El camino del agua</h1>
+                <img class="images-movies-carrusel" src="https://archivos-cms.cinecolombia.com/images/9/3/3/9/29339-8-esl-CO/86c502a6cc59-poster-avatar-el-camino-del-agua.jpg">
+            </article>
+
+            <article class="images-carrusel">
+                <h1 class="text-carrusel">Alerta Extrema</h1>
+                <img class="images-movies-carrusel" src="https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_poster/6/6/2/7/37266-1-esl-CO/ef64c5cda77e-480x670.png">
+            </article>
+
+            <article class="images-carrusel">
+                <h1 class="text-carrusel">El Aro 4: El despertar</h1>
+                <img class="images-movies-carrusel" src="https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_poster/3/5/4/8/38453-1-esl-CO/84203f1309e9-poster_480x670.png">
+            </article>
+
         </section>
+        <h4 class="title">EN CARTELERA</h4>
+        <section id="movies-section">
+            
+            <article class="movies">
+                <img class="images-movies-section" src="https://archivos-cms.cinecolombia.com/images/9/3/3/9/29339-8-esl-CO/86c502a6cc59-poster-avatar-el-camino-del-agua.jpg">
+                <h3 class="text-movies">Avatar: El camino del agua</h3>
+                <p class="text-movies">Título en inglés: Avatar: The Way Of Water</p>
+                <p class="text-movies">Estreno: 14-Dic-2022</p>
+                <p class="text-movies">Género: Acción, Ciencia Ficción</p>
+            </article>
+
+            <article class="movies">
+                <img class="images-movies-section" src="https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_poster/8/3/2/8/28238-17-esl-CO/f5bb2406d172-pib_cineco_2-poster_480x670.jpg">
+                <h3 class="text-movies">Gato con botas: El último deseo</h3>
+                <p class="text-movies">Título en inglés: Puss in boots: The Last Wish</p>
+                <p class="text-movies">Estreno: 22-Dic-2022</p>
+                <p class="text-movies">Género: Animación, Aventura</p>
+            </article>
+
+            <article class="movies">
+                <img class="images-movies-section" src="https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_poster/5/7/8/7/37875-2-esl-CO/a4f00f29faf9-m3_cineco_2-poster_480x670.jpg">
+                <h3 class="text-movies">M3gan</h3>
+                <p class="text-movies">Estreno: 05-Ene-2023</p>
+                <p class="text-movies">Género: Terror</p>
+            </article>
+
+            <article class="movies">
+                <img class="images-movies-section" src="https://archivos-cms.cinecolombia.com/images/_aliases/exhibition_poster/6/6/2/7/37266-1-esl-CO/ef64c5cda77e-480x670.png">
+                <h3 class="text-movies">Alerta Extrema</h3>
+                <p class="text-movies">Título en inglés: Plane</p>
+                <p class="text-movies">Estreno: 12-Ene-2023</p>
+                <p class="text-movies">Género: Acción, Suspenso</p>
+            </article>
+
+        </section>
+
+        <button class="see-more-button">Ver todo  <b>></b></button>
 
     </main>
 </body>

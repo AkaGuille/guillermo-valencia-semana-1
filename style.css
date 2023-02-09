@@ -14,30 +14,116 @@ nav{
 }
 
 #logo{
-    color: white;
+    width: 150px;
+    height: auto;
 }
 
 
 .nav-buttons{
-    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    padding: 7px;
     background-color: #1c508d;
     color:white;
     border-radius: 100px;
     border-color: transparent;
 }
 
+.input{
+    background-color: #1c508d;
+    color: white;
+    height: 30px;
+    width: 200px;
+    border: transparent;
+    border-radius: 100px;
+}
+
+.text-carrusel{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
 #carrusel{
     display: flex;
+}
+
+.images-carrusel{
+    width: 500px;
+    height: auto;
+    justify-content: space-around;
     position: relative;
-    text-align: center;
 }
 
-.carrusel-title{
-    color: white;
-    position: absolute;
-}
-
-.image-lp{
-    width: 273.2px;
+.images-movies-carrusel{
+    display: flex;
     height: 400px;
+    width: 100%;
 }
+
+
+#movies-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.title{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    padding-top: 70px;
+    padding-left: 5px;
+}
+
+.movies{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #8f8f91;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 15px;
+}
+
+.images-movies-section{
+    display: flex;
+    height: 350px;
+    width: 260px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-movies{
+    justify-content: start;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+    margin-right: 5px;
+}
+
+.see-more-button{
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    width: 80px;
+    background-color: white;
+    color:#1c508d;
+    border-radius: 100px;
+    border-color: #1c508d;
+}
+
+h3{
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(26, 26, 26);
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #555555;
+}
+
+
+
